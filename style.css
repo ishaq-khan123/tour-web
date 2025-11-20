@@ -1,0 +1,104 @@
+/* body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #ffffff;
+} */
+@font-face {
+    font-family: futurak;
+    src: url(./assets/fonts/futurak.ttf);
+}
+@font-face {
+    font-family: butler;
+    src: url(./assets/fonts/Butler/Butler_Bold.otf);
+}
+h1{
+    font-size: 4rem;
+    font-family: butler;
+}
+.logo-image{
+    width: vw;
+    height: 2vh;
+}
+.hanna{
+    width: 100%;
+    height: 70vh;
+}
+.hanna-image{
+    display: flex;
+    width: 100%;
+    margin-top: 60px;
+}
+figcaption{
+    font-size: 1.2rem;
+    font-family: butler;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.main-heading{
+    margin-top: 100px;
+}
+.main-heading>h1, p{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main-heading> p{
+    font-size: 1.2rem;
+    color: rgb(112, 108, 108);
+    font-weight: bold;
+    line-height: 25px;
+}
+.second-heading>h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.second-heading>p{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: rgb(112, 108, 108);
+    font-weight: bold;
+    line-height: 25px;
+}
+.third-heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.third-heading>h1{
+    font-size: 3.2rem;
+}
+.list-item{
+    line-height: 40px;
+    font-size: 1.2rem;
+    color: rgb(112, 108, 108);
+    font-weight: bold;
+    margin-top: 50px;
+}
+.fourth-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.fourth-heading>h1{
+    font-size: 3.2rem;
+}
+h2{
+    font-size: 2.5rem;
+    font-family: futurak;
+    margin-top: 30px;
+}
+.Ziarat-image>img{
+    width: 100%;
+    height: 60vh;
+}
